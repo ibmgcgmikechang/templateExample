@@ -1,6 +1,6 @@
 extensionId: templateExample # This needs to be unique
 buildType: docker
-language: python
+language: mypython
 creationType: template
 info:
   provider: IBM
@@ -8,7 +8,7 @@ info:
 
 # Information to display in the UI 
 userInterface:
-    label: Python hello world template
+    label: myPython hello world template
     description: HelloWorld microservice written in python
 
 # Specify location of template code, either gitURL or location relative
